@@ -1,6 +1,5 @@
 from setuptools import find_packages, setup
 
-test = 'test4'
 with open('requirements.txt') as f:
     required = f.read().splitlines()
 
