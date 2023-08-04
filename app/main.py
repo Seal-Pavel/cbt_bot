@@ -14,4 +14,4 @@
 # #
 # # app.include_router(endpoint1.router)
 # # app.include_router(endpoint2.router)
-test = 'test8'
+test = 'test9'
