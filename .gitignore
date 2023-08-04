@@ -1,9 +1,8 @@
 create_DEV_release.sh
-setup.py
 .bumpversion.cfg
+pyproject.toml
 app/release_notes/
 .DS_Store
-pyproject.toml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
