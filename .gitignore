@@ -1,4 +1,4 @@
-create_release.sh
+create_DEV_release.sh
 setup.py
 .bumpversion.cfg
 app/release_notes/
