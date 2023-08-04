@@ -1,0 +1,26 @@
+#name: Deploy to develop
+#
+#on:
+#  push:
+#    branches:
+#      - dev
+#
+#jobs:
+#  deploy:
+#    runs-on: ubuntu-latest
+#
+#    steps:
+#    - uses: actions/checkout@v2
+#
+#    - uses: appleboy/ssh-action@master
+#      with:
+#        host: ${{ secrets.SERVER_IP }}
+#        username: ${{ secrets.SSH_USERNAME }}
+#        key: ${{ secrets.SSH_PRIVATE_KEY }}
+#        script: |
+#          cd projects/usedesk_notification_bot
+#          git checkout dev
+#          git pull origin dev
+#          docker-compose down
+#          docker-compose build --build-arg assembling_mod=DEV
+#          docker-compose up -d

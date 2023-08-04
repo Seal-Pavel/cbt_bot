@@ -1,3 +1,10 @@
+create_release.sh
+setup.py
+.bumpversion.cfg
+app/release_notes/
+.DS_Store
+pyproject.toml
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
