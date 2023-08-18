@@ -1,0 +1,39 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pg_db_service
+spec:
+  selector:
+    app: postgres
+  ports:
+    - protocol: TCP
+      port: 5432
+      targetPort: 5432
+  type: ClusterIP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: telegram_bot_service
+spec:
+  selector:
+    app: telegram_bot
+  ports:
+    - protocol: TCP
+      port: 80 # мой порт
+      targetPort: 80 # порт в контейнере
+  type: ClusterIP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: django_api_service
+spec:
+  selector:
+    app: django_api
+  ports:
+    - protocol: TCP
+      port: 8000 # порт Django
+      targetPort: 8000 # порт в контейнере
+  type: ClusterIP
+---

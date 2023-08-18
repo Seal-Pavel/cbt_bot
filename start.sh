@@ -1,2 +1,3 @@
 #!/bin/bash
+export DJANGO_SETTINGS_MODULE=config.settings
 uvicorn app.main:app --host 0.0.0.0 --port 8000

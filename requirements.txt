@@ -1,2 +1,6 @@
 aiogram==3.0.0b9
 uvicorn
+django
+djangorestframework
+psycopg2
+python-dotenv

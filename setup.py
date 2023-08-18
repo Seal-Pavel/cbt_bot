@@ -13,4 +13,3 @@ setup(
     packages=find_packages(),
     install_requires=required,
 )
-# он установит в системный интерпритатор же не в виртаульное оркужение?

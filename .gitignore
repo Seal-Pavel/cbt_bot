@@ -1,8 +1,14 @@
+local_start.sh
 create_DEV_release.sh
 .bumpversion.cfg
 pyproject.toml
-app/release_notes/
+release_notes
 .DS_Store
+create_release.sh
+bot/docker/release_in_DockerHub.sh
+create_env_example.py
+bot/create_env_example.py
+kubernetes/secret.yaml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

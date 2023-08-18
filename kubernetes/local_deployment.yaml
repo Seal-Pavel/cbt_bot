@@ -1,0 +1,93 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: postgres_deployment_local
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: postgres
+  template:
+    metadata:
+      labels:
+        app: postgres
+    spec:
+      containers:
+        - name: postgres
+          image: postgres:13.4
+
+          livenessProbe:
+            tcpSocket:
+              port: 5432
+            initialDelaySeconds: 40
+            periodSeconds: 10
+
+          readinessProbe:
+            tcpSocket:
+              port: 5432
+            initialDelaySeconds: 10
+            periodSeconds: 10
+
+          securityContext:
+            runAsNonRoot: true
+            allowPrivilegeEscalation: false
+
+          env:
+            - name: POSTGRES_USER
+              valueFrom:
+                secretKeyRef:
+                  name: env
+                  key: POSTGRES_USER
+            - name: POSTGRES_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: env
+                  key: POSTGRES_PASSWORD
+            - name: POSTGRES_DB
+              valueFrom:
+                secretKeyRef:
+                  name: env
+                  key: POSTGRES_DB
+          
+          ports:
+            - containerPort: 5432
+
+          volumeMounts:
+            - mountPath: /var/lib/postgresql/data
+              name: pgdata
+
+      volumes:
+        - name: pgdata
+          persistentVolumeClaim:
+            claimName: pg_pv_claim
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: pg_pv_claim
+spec:
+  storageClassName: manual
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: db-network-policy
+spec:
+  podSelector:
+    matchLabels:
+      app: postgres
+  policyTypes:
+    - Ingress
+  ingress:
+    - from:
+        - podSelector:
+            matchLabels:
+              app: django-app
+      ports:
+        - protocol: TCP
+          port: 5432

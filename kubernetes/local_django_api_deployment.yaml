@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: django-api-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: django-api
+  template:
+    metadata:
+      labels:
+        app: django-api
+    spec:
+      containers:
+      - name: django-api
+        image: your-django-api-image
+        env:
+        # Переменные среды и другие конфигурации для Django API
+        - name: DJANGO_SECRET_KEY
+          valueFrom:
+            secretKeyRef:
+              name: django-secrets
+              key: DJANGO_SECRET_KEY

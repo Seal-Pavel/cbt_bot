@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: telegram-bot-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: telegram-bot
+  template:
+    metadata:
+      labels:
+        app: telegram-bot
+    spec:
+      containers:
+        - name: cbt-bot
+          image: cbt_bot
+          imagePullPolicy: Never
+          env:
+            - name: BOT_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: env
+                  key: BOT_TOKEN
