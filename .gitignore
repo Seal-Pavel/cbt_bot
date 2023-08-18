@@ -2,7 +2,6 @@ local_start.sh
 create_DEV_release.sh
 .bumpversion.cfg
 pyproject.toml
-release_notes
 .DS_Store
 create_release.sh
 bot/docker/release_in_DockerHub.sh

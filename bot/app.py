@@ -30,7 +30,7 @@ async def del_message(message: types.Message, daley: float = 0) -> None:
 async def help_command(message: types.Message) -> None:
     await del_message(message)
     await message.answer('1️⃣ /help\n'
-                         '12',
+                         '13',
                          disable_notification=True,
                          parse_mode="html")
 
