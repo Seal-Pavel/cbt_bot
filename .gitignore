@@ -5,7 +5,6 @@ pyproject.toml
 .DS_Store
 create_env_example.py
 kubernetes/secret.yaml
-release_notes
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
