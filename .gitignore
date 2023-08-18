@@ -1,5 +1,5 @@
 local_start.sh
-create_DEV_release.sh
+release.sh
 .bumpversion.cfg
 pyproject.toml
 .DS_Store
