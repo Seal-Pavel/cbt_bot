@@ -5,9 +5,8 @@ pyproject.toml
 .DS_Store
 create_env_example.py
 kubernetes/secret.yaml
-logs
-.github_old
-.idea
+logs/
+.github_old/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -168,4 +167,4 @@ cython_debug/
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+.idea/
