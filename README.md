@@ -1,4 +1,5 @@
-# CBT bot
+# CBT bot 
+[![CodeFactor](https://www.codefactor.io/repository/github/seal-pavel/cbt_bot/badge)](https://www.codefactor.io/repository/github/seal-pavel/cbt_bot)
 
 ### About
 

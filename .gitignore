@@ -6,6 +6,8 @@ pyproject.toml
 create_env_example.py
 kubernetes/secret.yaml
 logs
+.github_old
+.idea
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
