@@ -1,3 +1,13 @@
+1.0.55 2023-08-22
+=================
+
+### Improved Documentation
+
+- Changes in the CHANGELOG.md file:
+
+  - A link to the commit in the project version has been added to the CHANGELOG.md file.
+
+
 [v1.0.53](https://github.com/Seal-Pavel/cbt_bot/commit/23aa801de07ff4d6b0dcdc10312290a9a0f91bad) (2023-08-22)
 ===============
 
