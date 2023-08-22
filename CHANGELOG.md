@@ -1,3 +1,13 @@
+[v1.0.63](https://github.com/Seal-Pavel/cbt_bot/commit/8526bee38ee454f43089bc78c82099a728cebed4) (2023-08-22)
+===================
+
+### Features
+
+- Changes in the CHANGELOG.md file:
+
+  - A link to the commit in the project version has been added to the CHANGELOG.md file.
+
+
 [v1.0.62](https://github.com/Seal-Pavel/cbt_bot/commit/fc794b9e2f0fe1352115a1b9d5f5183c5ce7e69d) (2023-08-22)
 ===================
 
