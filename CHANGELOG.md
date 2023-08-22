@@ -1,67 +1,7 @@
-1.0.60 (2023-08-22)
+[v1.0.60](https://github.com/Seal-Pavel/cbt_bot/commit/cfc8442f738f49a787ae1894d6f1f41c78d03987) (2023-08-22)
 ===================
 
 ### Features
-
-- Changes in the CHANGELOG.md file:
-
-  - A link to the commit in the project version has been added to the CHANGELOG.md file.
-
-
-1.0.59 (2023-08-22)
-===================
-
-### Features
-
-- Changes in the CHANGELOG.md file:
-
-  - A link to the commit in the project version has been added to the CHANGELOG.md file.
-
-
-1.0.58 (2023-08-22)
-===================
-
-### Features
-
-- Changes in the CHANGELOG.md file:
-
-  - A link to the commit in the project version has been added to the CHANGELOG.md file.
-
-
-1.0.57 (2023-08-22)
-===================
-
-### Features
-
-- Changes in the CHANGELOG.md file:
-
-  - A link to the commit in the project version has been added to the CHANGELOG.md file.
-
-
-1.0.56 2023-08-22
-=================
-
-### Features
-
-- Changes in the CHANGELOG.md file:
-
-  - A link to the commit in the project version has been added to the CHANGELOG.md file.
-
-
-1.0.55 2023-08-22
-=================
-
-### Improved Documentation
-
-- Changes in the CHANGELOG.md file:
-
-  - A link to the commit in the project version has been added to the CHANGELOG.md file.
-
-
-[v1.0.53](https://github.com/Seal-Pavel/cbt_bot/commit/23aa801de07ff4d6b0dcdc10312290a9a0f91bad) (2023-08-22)
-===============
-
-### Improved Documentation
 
 - Changes in the CHANGELOG.md file:
 

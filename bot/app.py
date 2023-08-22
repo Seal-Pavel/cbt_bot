@@ -29,7 +29,7 @@ async def del_message(message: types.Message, daley: float = 0) -> None:
 @router.message(Command(commands=["help"]))
 async def help_command(message: types.Message) -> None:
     await del_message(message)
-    await message.answer('This is a cbt logging bot.\n',
+    await message.answer('This is a cbt logging bot!!!\n',
                          disable_notification=True,
                          parse_mode="html")
 
