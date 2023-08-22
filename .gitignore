@@ -8,6 +8,7 @@ kubernetes/secret.yaml
 logs/
 .github_old/
 .idea
+release_notes/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
