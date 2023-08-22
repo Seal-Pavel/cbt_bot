@@ -1,3 +1,23 @@
+CBT_bot v1.0.40 | 2023-08-22
+============================
+
+### Features
+
+- Some feature 1:
+
+  - Some extra data 1
+
+  - Some extra data 2
+
+
+
+  Some feature 2:
+
+  - Some extra data 1
+
+  - Some extra data 2
+
+
 CBT_bot v1.0.39 | 2023-08-22
 ============================
 
