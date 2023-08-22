@@ -1,3 +1,13 @@
+1.0.59 (2023-08-22)
+===================
+
+### Features
+
+- Changes in the CHANGELOG.md file:
+
+  - A link to the commit in the project version has been added to the CHANGELOG.md file.
+
+
 1.0.58 (2023-08-22)
 ===================
 
