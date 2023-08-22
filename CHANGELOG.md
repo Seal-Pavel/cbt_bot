@@ -1,3 +1,13 @@
+(Overall) v1.0.37 | 2023-08-22
+==============================
+
+### Features
+
+- Some extra feature 1
+
+  Some extra feature 2
+
+
 CBT_bot v1.0.22 | 2023-08-18
 ==============================
 
