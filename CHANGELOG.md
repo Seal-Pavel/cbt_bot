@@ -1,4 +1,4 @@
-1.0.61 (2023-08-22)
+[v1.0.61](https://github.com/Seal-Pavel/cbt_bot/commit/d249e275d16f3376d66e0c3676be977ee878b2f9) (2023-08-22)
 ===================
 
 ### Features
