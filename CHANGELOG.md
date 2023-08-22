@@ -1,3 +1,13 @@
+test 2023-08-22
+===============
+
+### Improved Documentation
+
+- Changes in the CHANGELOG.md file:
+
+  - A link to the commit in the project version has been added to the CHANGELOG.md file.
+
+
 CBT_bot v1.0.42 | 2023-08-22
 ============================
 
