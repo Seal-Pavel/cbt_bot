@@ -1,2 +1,4 @@
 .env
 .dockerignore
+.idea
+build_image.sh
