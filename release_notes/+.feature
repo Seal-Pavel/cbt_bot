@@ -1,10 +1,8 @@
 
-Some features ([be16872](https://github.com/Seal-Pavel/cbt_bot/commit/be16872776e6c127d94535a6a6a7b158f410319e))
+Some more features ([dca6a7f](https://github.com/Seal-Pavel/cbt_bot/commit/dca6a7f9f068dd5550373dea26111887a27c959b))
 
 - Some extra data 1
 
 - Some extra data 2
-
-- Some extra data 3
 
 
