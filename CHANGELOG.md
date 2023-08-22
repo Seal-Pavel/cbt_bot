@@ -1,15 +1,3 @@
-CBT_bot v1.0.44 | 2023-08-22
-============================
-
-### Features
-
-- Some more features ([83b040a](https://github.com/Seal-Pavel/cbt_bot/commit/83b040a0a6dd3ffce29594fd103b68c19940a09e))
-
-  - Some extra data 1
-
-  - Some extra data 2
-
-
 CBT_bot v1.0.43 | 2023-08-22
 ============================
 
