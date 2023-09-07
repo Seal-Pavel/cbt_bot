@@ -4,13 +4,13 @@ scripts/release.sh
 pyproject.toml
 .DS_Store
 scripts/create_env_example.py
-kubernetes/secret.yaml
 logs/
 .github_old/
 .idea
 release_notes/
 .env.*
 !.env.example
+secret*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -134,7 +134,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env.common
+.env
 .venv
 env/
 venv/

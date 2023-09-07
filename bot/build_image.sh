@@ -2,7 +2,7 @@
 
 set -e
 
-source .env.common
+source .env.bot
 
 TAG=$(date +"%Y%m%d-%H%M")
 
