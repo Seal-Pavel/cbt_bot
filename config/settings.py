@@ -26,13 +26,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = getenv('DJANGO_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = getenv('DJANGO_DEBUG').lower() == 'true'
 
 ALLOWED_HOSTS = []
 
 # Application definition
-
 INSTALLED_APPS = [
+    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -78,10 +78,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'cbt_bot',
-        'USER': getenv('BD_USER'),
-        'PASSWORD': getenv('BD_PASSWORD'),
-        'HOST': getenv('BD_HOST'),
-        'PORT': getenv('BD_PORT'),
+        'USER': getenv('POSTGRES_USER'),
+        'PASSWORD': getenv('POSTGRES_PASSWORD'),
+        'HOST': getenv('POSTGRES_HOST'),
+        'PORT': getenv('POSTGRES_PORT') or '5432',
     },
 }
 

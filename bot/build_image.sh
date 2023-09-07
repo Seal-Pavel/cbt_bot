@@ -2,7 +2,7 @@
 
 set -e
 
-source ../.env
+source .env.common
 
 TAG=$(date +"%Y%m%d-%H%M")
 
@@ -18,7 +18,7 @@ kubectl rollout status deployment telegram-bot-deployment || { echo "Error durin
 
 echo "Deployment successfully completed."
 
-
+# # DockerHub
 #DOCKER_USERNAME="sealpavel"
 #echo "Building image..."
 #docker build -t $DOCKER_USERNAME/"$BOT_NAME:$TAG" .

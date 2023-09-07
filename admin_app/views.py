@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from rest_framework import generics
 
-# Create your views here.
+from serializers import ChatSerializer
+
+
+class ChatCreateView(generics.CreateAPIView):
+    serializer_class = ChatSerializer

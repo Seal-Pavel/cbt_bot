@@ -1,6 +1,7 @@
 import asyncio
 import logging
 from os import getenv
+from pprint import pprint
 
 from aiogram import Bot, Dispatcher, Router, types
 from aiogram.filters import Command
@@ -29,6 +30,8 @@ async def del_message(message: types.Message, daley: float = 0) -> None:
 @router.message(Command(commands=["help"]))
 async def help_command(message: types.Message) -> None:
     await del_message(message)
+    pprint(message.from_user)
+    pprint(message.chat)
     await message.answer('This is a cbt logging bot.\n',
                          disable_notification=True,
                          parse_mode="html")

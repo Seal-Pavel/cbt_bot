@@ -1,4 +1,6 @@
-.env
+.env.*
+!.env.example
+.ini
 .dockerignore
 .idea
 build_image.sh

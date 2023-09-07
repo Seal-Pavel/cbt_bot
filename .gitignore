@@ -1,14 +1,16 @@
-local_start.sh
-release.sh
+scripts/local_start.sh
+scripts/release.sh
 .bumpversion.cfg
 pyproject.toml
 .DS_Store
-create_env_example.py
+scripts/create_env_example.py
 kubernetes/secret.yaml
 logs/
 .github_old/
 .idea
 release_notes/
+.env.*
+!.env.example
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -132,7 +134,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+.env.common
 .venv
 env/
 venv/

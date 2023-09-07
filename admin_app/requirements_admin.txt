@@ -1,6 +1,3 @@
-aiogram==3.0.0b9
-aiohttp
-uvicorn
 django
 djangorestframework
 psycopg2
