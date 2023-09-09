@@ -1,3 +1,11 @@
+[v1.0.65](https://github.com/Seal-Pavel/cbt_bot/commit/efecd7da372f188d1e94222b7da9c4ac9b5d9581) (2023-09-09)
+===================
+
+### Features
+
+- Scripts for internal development have been reworked.
+
+
 [v1.0.60](https://github.com/Seal-Pavel/cbt_bot/commit/cfc8442f738f49a787ae1894d6f1f41c78d03987) (2023-08-22)
 ===================
 
