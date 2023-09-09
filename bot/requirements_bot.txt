@@ -1,2 +1,1 @@
 aiogram==3.0.0b9
-python-dotenv

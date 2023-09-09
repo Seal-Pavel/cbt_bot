@@ -20,5 +20,5 @@ spec:
             - name: BOT_TOKEN
               valueFrom:
                 secretKeyRef:
-                  name: env
+                  name: env.bot
                   key: BOT_TOKEN
