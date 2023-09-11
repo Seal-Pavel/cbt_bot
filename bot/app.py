@@ -32,7 +32,7 @@ async def help_command(message: types.Message) -> None:
     await del_message(message)
     pprint(message.from_user)
     pprint(message.chat)
-    await message.answer('This is a cbt logging bot!\n',
+    await message.answer('This is a cbt logging bot.\n',
                          disable_notification=True,
                          parse_mode="html")
 
