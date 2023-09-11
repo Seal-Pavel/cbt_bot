@@ -1,3 +1,11 @@
+[v1.0.67](https://github.com/Seal-Pavel/cbt_bot/commit/d139ea76ab334bf6a68c099f099ebd6904270e48) (2023-09-11)
+===================
+
+### Features
+
+- test
+
+
 [v1.0.66](https://github.com/Seal-Pavel/cbt_bot/commit/847f40b7ea10982c124534ae05ec774ff1a6bc1f) (2023-09-11)
 ===================
 
